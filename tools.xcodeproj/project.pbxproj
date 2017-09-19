@@ -101,6 +101,7 @@
 		048FF3471F6FA6C400DE37A8 /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				048FF37B1F6FBFD700DE37A8 /* pcmPlayer */,
 				048FF34B1F6FA6C400DE37A8 /* AppDelegate.h */,
 				048FF34C1F6FA6C400DE37A8 /* AppDelegate.m */,
 				048FF34E1F6FA6C400DE37A8 /* ViewController.h */,
@@ -138,6 +139,13 @@
 				048FF36F1F6FA6C400DE37A8 /* Info.plist */,
 			);
 			path = toolsUITests;
+			sourceTree = "<group>";
+		};
+		048FF37B1F6FBFD700DE37A8 /* pcmPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pcmPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +517,7 @@
 				048FF3741F6FA6C400DE37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048FF3751F6FA6C400DE37A8 /* Build configuration list for PBXNativeTarget "toolsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				048FF3771F6FA6C400DE37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		048FF3781F6FA6C400DE37A8 /* Build configuration list for PBXNativeTarget "toolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				048FF37A1F6FA6C400DE37A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
