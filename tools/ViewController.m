@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <sys/time.h>
 
 @interface ViewController ()
 
@@ -63,5 +64,22 @@
     }
 }
 
+
+-(void) getCostTime {
+    struct timeval t_start,t_end;
+    long cost_time = 0;
+    
+    //get start time
+    gettimeofday(&t_start, NULL);
+    long start = ((long)t_start.tv_sec)*1000+(long)t_start.tv_usec/1000;
+
+    //get end time
+    gettimeofday(&t_end, NULL);
+    long end = ((long)t_end.tv_sec)*1000+(long)t_end.tv_usec/1000;
+
+    cost_time = end - start;
+    
+    NSLog(@"AAAAASD ***** costTime = %ld",cost_time);
+}
 
 @end
